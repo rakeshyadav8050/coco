@@ -1,0 +1,437 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#nav{
+    height: 90px;
+    width: 100%;
+    background-color: rgb(251, 249, 249);
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding-left: 150px;
+    font-size: 14px;
+    font-weight: 300;
+    
+}
+#nav img{
+    cursor: pointer;
+}
+#nav h3:hover{
+    color: blue; 
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#home{
+    height: 100%;
+    width: 100vw;
+    background-color:#F1F1F1;
+    padding-top: 2%;
+    
+}
+#first{
+    height: 100%;
+    width: 90%;
+    background-color: rgb(201, 186, 186);
+    margin-left: 5%;
+    background-image: url(https://www.coca-cola.com/content/dam/onexp/in/en/brands/sprite/2560x1208_Desktop_Hero%20image.jpg/width1960.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    
+    
+    
+}
+
+#two{
+    height: 20%;
+    width: 100%;
+    background-color: #F1F1F1 ;
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 300;
+}
+#four{
+    height: 75%;
+    width: 100%;
+    background-color: #F1F1F1;
+    display: flex;
+    gap: 20px;
+    padding-left: 200px;
+    padding-right: 200px;
+    justify-content: space-around;
+}
+#fourleft{
+    height: 450px;
+    width: 540px;
+    /* background-color: aquamarine; */
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+#text {
+    height: 200px;
+    width: 330px;
+    /* background-color: rgb(178, 95, 95); */
+    font-size: 34px;
+    font-weight: 700;
+}
+#text  button{
+    height: 30px;
+    width: 330px;
+    border: 2px solid black;
+    border-radius: 13px;
+    font-size: 16px;
+    font-weight: 700;
+    animation-name: anim;
+    animation-duration: 20 s;
+    animation-delay: 2s;
+    position: relative;
+    
+}
+
+#text button:hover{
+    background-color: black;
+    color: white;
+}
+
+#fourright{
+    height: 450px;
+    width: 540px;
+    background-color: aquamarine;
+    border-radius: 10px;
+    background-image: url(https://www.coca-cola.com/content/dam/onexp/in/en/homepage/Coke%20Studi%20Bharat_Banner_R2_Desktop_640px%20X%20552px_.jpg/width1960.jpg);
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}
+#five{
+    height: 100%;
+    width: 100%;
+    background-color: #F1F1F1;
+    display: flex;
+     justify-content: space-around; 
+    padding-left: 200px;
+    padding-right: 200px;
+    gap: 10px;
+}
+#fiveleft{
+    height: 90%;
+    width: 47%;
+    background-color: rgb(189, 124, 124);
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: -21px 30px 47px -15px rgba(0,0,0,0.26);
+    cursor: pointer;
+}
+#fivelefttop{
+    height: 60%;
+    width: 100%;
+    background-image: url(https://www.coca-cola.com/content/dam/onexp/in/en/home-page-test-img/homepage/homepage--resizing-img/sustainability%20news%20world%20without%20waste_desktop.jpg/width1960.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px 20px 0px 0px;
+    cursor: pointer;
+}
+#fiveleftdown{
+    font-size: 20px;
+    padding-top: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+     padding-bottom: 25px; 
+    gap: 20px;
+    background-color: white;
+    height: 40%;
+    border-radius: 0px 0px 20px 20px;
+
+}
+#fiveleftdown h3 {
+    margin-bottom: 14px;
+    font-size: 27px;
+}
+#fiveleftdown p{
+    margin-bottom: 14px;
+}
+#fiveleftdown a{
+    
+    text-decoration: none;
+    color: rgb(15, 15, 15);
+    font-weight: 600;
+
+}
+#fiveleftdown a:hover{
+    color: blue;
+    
+}
+#fiveright{
+    height: 90%;
+    width: 47%;
+    background-color: rgb(189, 124, 124);
+    border-radius: 20px;
+    box-shadow: -21px 30px 47px -15px rgba(0,0,0,0.26);
+    
+}
+#fiverighttop{
+    height: 60%;
+    width: 100%;
+    /* background-color: blueviolet; */
+    background-image: url(https://www.coca-cola.com/content/dam/onexp/in/en/home-page-test-img/homepage/homepage--resizing-img/sustainability%20news%20sustainable%20agriculture_desktop.jpg/width1960.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px 20px 0px 0px;
+    cursor: pointer;
+
+}
+#fiverightdown{
+    font-size: 20px;
+    padding-top: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+     padding-bottom: 25px; 
+    gap: 20px;
+    background-color: white;
+    height: 40%;
+    border-radius: 0px 0px 20px 20px;
+}
+#fiverightdown h3 {
+    margin-bottom: 14px;
+    font-size: 27px;
+}
+#fiverightdown p{
+    margin-bottom: 14px;
+}
+#fiverightdown a{
+    
+    text-decoration: none;
+    color: rgb(15, 15, 15);
+    font-weight: 600;
+    text-decoration: none;
+    color: black ;
+
+}
+#fiverightdown a:hover{
+    color: blue;
+}
+#six{
+    height: 100%;
+    width: 100%;
+    background-color: #F1F1F1;
+    padding-top: 50px;
+    padding-left: 210px;
+    display: flex;
+}
+#sixleft{
+    height:550px ;
+    width: 630px;
+    background-image: url(https://www.coca-cola.com/content/dam/onexp/in/en/home-page-test-img/homepage/homepage--resizing-img/640x552.jpg/width1960.jpg);
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+    z-index: 2;
+    margin-top: 80px;
+    cursor: pointer;
+    
+}
+#sixright{
+    height: 550px ;
+    width: 540px;
+    background-color:white;
+    z-index: 5;
+    position: relative;
+    right: 50px;
+    border-radius: 20px;
+    box-shadow: -5px 6px 19px -2px rgba(0,0,0,0.75);
+    padding: 50px;
+    /* cursor: pointer; */
+}
+#sixright h3{
+    font-size: 36px;
+    margin-bottom: 14px;
+}
+#sixright p{
+    font-size: 21px;
+    font-weight: 500;
+    margin-bottom: 14px;
+}
+#sixright button{
+    height: 40px ;
+    width: 340px;
+    border: 3px solid black;
+    border-radius: 30px;
+    background-color: transparent;
+    font-size: 17px;
+    font-weight: 600;
+}
+#sixright button:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+
+}
+#seven{
+    height: 87%;
+    width: 100%;
+    background-color: #F1F1F1;
+    padding-left: 270px;
+    padding-right: 330px;
+    gap: 40px;
+}
+#seventop{
+    width: 1000px;
+    height: 320px;
+    /* background-color: hotpink; */
+    display: flex;
+    justify-content: space-between;
+    
+}
+#sevenbox{
+    height: 280px;
+    width: 280px;
+    background-color:white;
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: -5px 6px 20px -2px rgba(0,0,0,0.75);
+    cursor: pointer;
+}
+#sevenbottom{
+    height: 320px;
+    width: 1000px;
+    /* background-color: rgb(70, 38, 198); */
+    display: flex;
+    justify-content: space-between;
+}
+
+#eight button{
+    height: 40px;
+    width: 340px;
+    margin-left: 400px;
+    border: 3px solid black;
+    margin-right: 400px;
+    border-radius: 20px;
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+#eight button:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+#eight{
+    height: 170vh;
+    width: 100%;
+    background-color: #F1F1F1;
+    overflow: hidden;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+#eight p{
+    font-size: 18px;
+    line-height: 25px;
+    font-stretch: expanded;
+}
+#nine{
+    height: 85%;
+    width: 100%;
+    background-color: rgb(4, 4, 4);
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 70px;
+}
+#ninetop{
+    display: flex;
+    width: 1100px;
+    height: 50px;
+  
+    background-color: black;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+#ninetop button{
+    height: 40px ;
+    width: 220px;
+    border: 3px solid white;
+    background-color: transparent;
+    border-radius: 30px;
+    font-size: 19px;
+    color: white;
+}
+#ninetop button:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+#ninemid{
+    height: 240px;
+    width: 100%;
+    /* background-color: orangered; */
+    margin-top: 50px;
+    display: flex;
+    gap: 30px;
+    color: white;
+    margin-bottom: 20px;
+}
+#mid{
+    height: 220px;
+    width: 190px;
+    /* background-color:violet ; */
+}
+#mid p{
+    font-size: 12px;
+    font-weight: 700;
+    color: rgb(231, 218, 218);
+}
+#mid h5{
+    font-size: 17px;
+    line-height: 30px;
+    margin-top: 10px;
+}
+#mid h5:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+#logobox{
+    height: 220px;
+    width: 220px;
+    /* background-color: hotpink ; */
+    margin-left: 230px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 0px;
+
+}
+#logobox button{
+    height: 35px;
+    width: 35px;
+    font-size: 20px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+}
+#logobox button:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid rgb(255, 0, 85);
+    cursor: pointer;
+}
+#nine h6{
+    color: white;
+    margin-left: 66%;
+    margin-top: 40px;
+    font-size: 15px;
+}
+
+
+
